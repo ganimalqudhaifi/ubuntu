@@ -1,0 +1,7 @@
+# Split the screen and focus onto the new created space
+screen # Membuat Screen 0
+split -v # Buat Split Vertical
+focus # Pindah ke Screen 1
+
+screen # Membuat Screen 1
+focus # Balik ke Screen 0

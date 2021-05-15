@@ -4,4 +4,8 @@ split -v # Buat Split Vertical
 focus # Pindah ke Screen 1
 
 screen # Membuat Screen 1
+split -v # Buat Split Vertical
+focus # Pindah ke Screen 2
+
+screen # Membuat Screen 2
 focus # Balik ke Screen 0

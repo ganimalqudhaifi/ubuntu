@@ -14,5 +14,3 @@ focus # Balik ke Screen 0
 
 screen # Deklarasi Screen
 focus # Kembali ke Screen Awal
-
-layout save default

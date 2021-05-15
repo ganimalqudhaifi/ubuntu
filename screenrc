@@ -1,11 +1,16 @@
 # Split the screen and focus onto the new created space
-screen # Membuat Screen 0
+screen # Deklarasi Screen
+split # Buat Split Horizontal
+
 split -v # Buat Split Vertical
-focus # Pindah ke Screen 1
+focus # Pindah Screen
 
 screen # Membuat Screen 1
-split -v # Buat Split Vertical
 focus # Pindah ke Screen 2
 
 screen # Membuat Screen 2
+split -v # Buat Split Vertical
 focus # Balik ke Screen 0
+
+screen # Deklarasi Screen
+focus # Kembali ke Screen Awal

@@ -12,5 +12,9 @@ screen # Membuat Screen 2
 split -v # Buat Split Vertical
 focus # Balik ke Screen 0
 
+screen # Membuat Screen 2
+split -v # Buat Split Vertical
+focus # Balik ke Screen 0
+
 screen # Deklarasi Screen
 focus # Kembali ke Screen Awal
